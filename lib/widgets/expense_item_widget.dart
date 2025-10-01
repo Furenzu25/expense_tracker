@@ -1,4 +1,3 @@
-import 'package:expense_tracker/expense.dart';
 import 'package:expense_tracker/model/expense_item.dart';
 import 'package:flutter/material.dart';
 
@@ -27,9 +26,9 @@ class ExpenseItemWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Text(expenseItem.amount.toString()),
-                Spacer(),
+                const Spacer(),
                 Icon(categoryIcons[expenseItem.category]),
-                SizedBox(width: 5),
+                const SizedBox(width: 5),
                 Text(expenseItem.formattedDate),
               ],
             ),

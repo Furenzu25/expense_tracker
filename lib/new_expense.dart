@@ -3,6 +3,8 @@ import 'package:intl/intl.dart';
 import 'package:expense_tracker/model/expense_item.dart';
 
 class NewExpense extends StatefulWidget {
+  const NewExpense({super.key});
+
   @override
   State<NewExpense> createState() => _NewExpenseState();
 }
